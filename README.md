@@ -1,7 +1,7 @@
 # STEC
 STEC is a new spatial-temporal embodied carbon model for embodied carbon accounting. 
 ## Data Schema
-The data organization is based on SEMANCO, which is a system of energy information to integrate data from multiple data sources. In STEC, the data can be categorized into electricity data (mapping to energy information in SEMANCO), geographic data (mapping to geographic information in SEMANCO), and hardware-related data (extended SEMANCO).
+The data organization is based on [SEMANCO](https://www.researchgate.net/profile/Alvaro-Sicilia/publication/262492328_SEMANCO_Semantic_Tools_for_Carbon_Reduction_in_Urban_Planning/links/5836ca9908aed45931c80503/SEMANCO-Semantic-Tools-for-Carbon-Reduction-in-Urban-Planning.pdf), which is a system of energy information to integrate data from multiple data sources. In STEC, the data can be categorized into electricity data (mapping to energy information in SEMANCO), geographic data (mapping to geographic information in SEMANCO), and hardware-related data (extended SEMANCO).
 
 ### Geographic data
 Along the spatial dimension, there is granularity on country-level, treaty-zone-leveand, and global-level. In country-level, we study the main six IC production countries. Available data for treaty-zone-level contains European Union (EU) and Association of Southeast Asian Nations (ASEAN).
