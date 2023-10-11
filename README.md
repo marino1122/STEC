@@ -52,8 +52,8 @@ The hardware-related data contains Electricity consumed per die Size (EPS), Carb
 To serve different applications, STEC models are classified by different spatical and temporal granularity, e.g., country-level and day-level (CD), country-level and season-level (CS), and treaty-zone-level and year-level (ZY).
 |   Model  | Input | 
 |:----------------:|:-------------:|
-| STEC-CD |      Hardware-related data +  Electricity data (Daily) + Geographic data (Country-level) | 
-|  STEC-CS  |    Hardware-related data +  Electricity data (Monthly) + Geographic data (Country-level) | 
-|  STEC-ZY  |    Hardware-related data +  Electricity data (Yearly) + Geographic data (Global-level) | 
+| STEC-CD |      Hardware-related data +  Electricity data (Daily, Geographic data (Country-level) ) | 
+|  STEC-CS  |    Hardware-related data +  Electricity data (Monthly, Geographic data (Country-level) )  | 
+|  STEC-ZY  |    Hardware-related data +  Electricity data (Yearly, Geographic data (Global-level) )  | 
 
 
