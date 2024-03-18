@@ -1,6 +1,7 @@
 # STEC: Spatial-Temporal Embodied Carbon Models for Embodied Carbon Accounting of Computer Systems
-STEC is a new spatial-temporal embodied carbon model for embodied carbon accounting. In STEC, the data can be categorized into electricity data and hardware-related data.
+STEC is a new spatial-temporal embodied carbon model for embodied carbon accounting. 
 ## Data description
+In STEC, the data can be categorized into electricity data and hardware-related data.
 ### Hardware-related data
 The hardware-related data contains Electricity consumed per die Size (EPS), Carbon emission from Gas used per die Size (GPS), Carbon emission from Material used per die Size (MPS), Bit density for memory (BD), and Electricity consumed per GB (EPG).  
 | Hardware type   | Paremeters | Source |
