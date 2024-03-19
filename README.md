@@ -18,13 +18,14 @@ Along the temporal dimension, the carbon intensity of electricity has granularit
 | Monthly     |  [EMBIR](https://ember-climate.org/countries-and-regions/) |
 |   Yearly   |   [Our Word in Data](https://ourworldindata.org/grapher/carbon-intensity-electricity?tab=chart)  |
 
-## STEC Models Set
-To serve different applications, STEC models are classified by different spatical and temporal granularity, e.g., country-level and day-level (CD), country-level and season-level (CS), and treaty-zone-level and year-level (ZY).
-|   Model  | Input | 
-|:----------------:|:-------------:|
-| STEC-CD |      Hardware-related data +  Daily electricity data  | 
-|  STEC-CS  |    Hardware-related data +  Monthly electricity data   | 
-|  STEC-ZY  |    Hardware-related data +  Yearly electricity data   | 
+## Getting Started
+The code is built on Python 3.7.7 and no special packages are required.
+### STEC-CD
+STEC-CD.py can provide the daily emboded carbon accounting for haredare. To run STEC-DE, you need input: (a) The data of product manufaturing in the format: 01.01.2021-31.12.2021 (b) The location of product manufaturing in the format: IT, IE, US, TW, KR. (c) The haredware type: Processor, Storage, Memory. 
+### STEC-CS
+STEC-CS.py can provide the monthly emboded carbon accounting for haredare. To run STEC-DE, you need input: (a) The data of product manufaturing in the format: 2019/1/1-2022/12/1 (b) The location of product manufaturing in the format: CN, IT, IE, US, TW, KR. (c) The haredware type: Processor, Storage, Memory. 
+### STEC-ZY
+STEC-ZY.py can provide the monthly emboded carbon accounting for haredare. To run STEC-DE, you need input: (a) The data of product manufaturing in the format: 2019-2021 (b) The location of product manufaturing in the format: EU, ASEAN. (c) The haredware type: Processor, Storage, Memory. 
+ 
 
-## Getting Started 
-...
+
