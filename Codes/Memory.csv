@@ -1,0 +1,5 @@
+﻿Technology,Embodied Carbon (g/GB),Bit Density (G/mm2),Carbon Emissions from Electricity Consumption (g/GB)
+30nm LPDDR3,230,0.06,67.5
+20nm LPDDR3,184,0.11,51.43
+10nm DDR4,65,0.19,35.74
+LPDDR4,48,0.17,39.04
