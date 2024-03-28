@@ -1,4 +1,4 @@
-﻿Process Node,EPS(kWh/cm2),GPS (g/cm2),MPS (g/cm2)
+﻿Process Node,EPS (kWh/cm2),GPS (g/cm2),MPS (g/cm2)
 28nm,0.9,100,500
 20nm,1.2,110,500
 14nm,1.2,125,500
